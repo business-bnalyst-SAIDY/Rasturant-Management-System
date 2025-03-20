@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('c:\Users\Saidy\Downloads\restaurant-939435_640.jpgtaurant-background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.cover-page {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cover-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cover-page p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer; /* Add cursor pointer for better user experience */
+}
+
+.explore-button:hover {
+    background-color: #e65239;
+}
